@@ -55,7 +55,7 @@ It should print only the arguments without the python file name.
 #!/usr/bin/python3
 import sys
 
-# Start the loop at index 1 to skip the script name
+ - Start the loop at index 1 to skip the script name -
 for i in range(1, len(sys.argv)):
     print(sys.argv[i])
 
@@ -66,7 +66,7 @@ For i in "range(1, len(sys.argv)):": This starts the loop from index 1, effectiv
 
 #### Oringinal Code ####
 
-<!DOCTYPE html>
+// <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -92,6 +92,7 @@ For i in "range(1, len(sys.argv)):": This starts the loop from index 1, effectiv
 <button id="colorButon">Change Color</button>
 
 <script>
+    
     document.getElementById("colorButton").addEventListener("click", function() {
         changeBackgroundColor();
     });
@@ -105,7 +106,7 @@ For i in "range(1, len(sys.argv)):": This starts the loop from index 1, effectiv
 </script>
 
 </body>
-</html>
+</html> //
 
 * Issue: It looks like you have a small typo in your HTML and JavaScript code. Specifically, the id of the button and the JavaScript getElementById call don’t match. Here’s the corrected code:
 
